@@ -4,7 +4,7 @@
   "description": "template for node exercises",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/j-West/nodeTemplate/issues"
   },
-  "homepage": "https://github.com/j-West/nodeTemplate#readme"
+  "homepage": "https://github.com/j-West/nodeTemplate#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
 }
