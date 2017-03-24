@@ -1,0 +1,19 @@
+ul
+  if title === 'Home'
+    a(href='/about')
+      li About
+    a(href='/inventory')
+      li Inventory
+  else if title === 'About'
+    a(href='/')
+      li Home
+    a(href='/inventory')
+      li Inventory
+  else if title === 'Inventory'
+    a(href='/')
+      li Home
+    a(href='/about')
+      li About
+
+
+
