@@ -1,19 +1,19 @@
-ul
+ul.navbar
   if title === 'Home'
     a(href='/about')
-      li About
+      li.nav About
     a(href='/inventory')
-      li Inventory
+      li.nav Inventory
   else if title === 'About'
     a(href='/')
-      li Home
+      li.nav Home
     a(href='/inventory')
-      li Inventory
+      li.nav Inventory
   else if title === 'Inventory'
     a(href='/')
-      li Home
+      li.nav Home
     a(href='/about')
-      li About
+      li.nav About
 
 
 

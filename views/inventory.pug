@@ -1,4 +1,6 @@
 extends layout.pug
 block content
-  h1 Inventory
-
+  h1.center-text Our Baked Goods Inventory
+  .center-container
+    each val in products
+      p #{val.name}: #{val.price} each

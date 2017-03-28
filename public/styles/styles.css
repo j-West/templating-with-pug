@@ -1,3 +1,60 @@
-.center-text {
-  
+
+/***************
+     Global
+***************/
+
+h1, h2, p {
+    text-align: center;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/***************
+      Nav
+***************/
+
+.navbar {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+}
+
+li {
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/***************
+     About
+***************/
+
+
+.bakerImg {
+    height: 20em;
+    width: 15em;
+}
+
+
+/***************
+     Index
+***************/
+
+.storeImg {
+    height: 25em;
+    width: 40em;
+}
+
+
+
